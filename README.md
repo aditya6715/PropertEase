@@ -1,1 +1,1 @@
-# propertydetaiils
+# propertydetails
