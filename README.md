@@ -1,58 +1,70 @@
-# propertydetails
-REAL ESTATE DATABASE
- Index
- Introduction
- Project Overview
- Managerial Consideration
- Key Features and Functionalities
- Design and Implementation Approach
- Contributors
-Introduction:
-In the dynamic world of real estate, efficient management of
-transactions and client relationships is paramount to success.
-To address the needs of a real-estate office aiming to
-streamline its operations, this project embarks on designing a
-robust database system. The system is tailored to manage
-agents, buyers, sellers, properties on the market, and recently
-sold properties, catering primarily to residential real estate
-transactions. 
-Project Overview:
-The goal of this project is to design a database system for a
-real-estate office to manage agents, buyers, sellers, properties
-on the market, and recently sold properties. The database
-system will facilitate tracking and management of real-estate
-transactions.
-Key Features and Considerations:
-• Agent Management: Keeps track of agents including their contact
-information and performance metrics.
-• Buyer and Seller Management: Maintains information about buyers
-and sellers, including their contact details and preferences.
-• Property Management: Manages properties on the market, including
-details such as address, price, size, and features.
-• Transaction History: Tracks recently sold properties, including
-transaction details and parties involved.
-• User-Friendly Interface: Considering the management's limited
-computer literacy, the systemhave a simple and intuitive interface.
-Design and Implementation Approach:
-• Requirement Analysis: We first analyzed the needs of the real-estate
-office by studying the provided information and real-estate websites.
-• Entity-Relationship (E-R) Modeling: We created an E-R diagram
-representing the conceptual design of the database. Include entity sets
-for agents, buyers, sellers, properties, and relationship sets representing
-interactions between them.
-• Database Schema Design: We converted the E-R model into a relational
-schema. Define tables for each entity set, ensuring primary keys and
-appropriate attributes are included.
-• Refinement: We normalized all the relations to achieve the goal of
-minimum redundancy. All the tables are in Boyce-Codd Normal Form
-(BCNF).
-• Populate Sample Data: We Populated the database with sample data to
-demonstrate its functionality. Ensure data privacy by using fictional
-information.
-How to Run:
-• SQL file: The SQL files can be run on MySQL workbench.
-• Web Interface: To run the web interface:
-▪ Install node modules running ‘npm i’ in both client and
-server folder.
-▪ To run the server use ‘node index.js’
-▪ To run the Client use ‘npm star
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
